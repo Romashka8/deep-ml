@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T14:49:53.443Z",
+  "generated_at": "2026-10-30T15:11:32.450Z",
   "items": {
     "problem:121": {
       "kind": "problem",
@@ -320,6 +320,19 @@
       "path": "math/0014-orthogonality-and-projections",
       "first_solved_at": "2026-10-26T14:49:52.599Z",
       "last_pushed_at": "2026-10-26T14:49:52.599Z"
+    },
+    "problem:1101": {
+      "kind": "problem",
+      "id": "1101",
+      "title": "SELECT all rows",
+      "difficulty": "easy",
+      "category": "Sql",
+      "url": "https://www.deep-ml.com/problems/1101",
+      "path": "problems/1101-select-all-rows",
+      "first_solved_at": "2026-10-30T15:11:31.656Z",
+      "last_pushed_at": "2026-10-30T15:11:31.656Z",
+      "language": "sql",
+      "lines": 3
     }
   }
 }
