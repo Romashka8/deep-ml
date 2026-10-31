@@ -1,3 +1,12 @@
-SELECT DISTINCT salary 
-FROM employee
-ORDER BY salary DESC LIMIT 1 OFFSET 2;
+WITH salarys AS (
+    SELECT DISTINCT salary
+    FROM employee
+),
+ranked AS (
+    SELECT salary,
+           ROW_NUMBER() OVER (ORDER BY salary DESC) AS rn
+    FROM salarys
+)
+SELECT salary
+FROM ranked
+WHERE rn = 3;
